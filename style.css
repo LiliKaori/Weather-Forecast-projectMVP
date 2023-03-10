@@ -1,0 +1,90 @@
+*  {
+    margin: 0;  /* margem */
+    padding: 0; /* margem de botão */
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; /* Busca de fonte buscar no google fonts*/
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* vh: medida de altura metade da tela é 50*/
+    width: 100vw; /* vw Igual que vh, mas para largura*/ 
+    background-image: url(https://images.unsplash.com/photo-1505521377774-103a8cc2f735?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY3NTM3MzI3MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+}
+
+.caixa-maior {
+    background-color: #000000; /* Cor de fundo */
+    width: 95%; /* Largura */
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc( 100% - 100px);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+    margin-top: 20px;
+    
+}
+
+.caixa-menor {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa {
+    height: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.temp {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.icone {
+    height: 30px;
+}
+
+.descricao {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-left: 20px;    
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
